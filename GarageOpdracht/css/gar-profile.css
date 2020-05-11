@@ -1,0 +1,109 @@
+body {
+    margin: auto;
+    max-width: 70%;
+    background-image: url("images/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+header {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Algerian;
+    height: 60px;
+}
+sidenav {
+    display: block;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+}
+.button {
+    text-decoration: none;
+    border: 1px solid gray;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}
+.menu {
+    text-decoration: none;
+    border: 1px solid gray;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}
+.white {
+    border-top: 1px solid white;
+    background-color: white;
+    height: 630px;
+    text-align: center;
+}
+img {
+    width: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
+h2 {
+    font-family: Algerian;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+ul {
+    font-family: Calibri;
+    font-size: large;
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+    color: gray;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+input[type=submit] {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+input:hover, a:hover {
+    opacity: 0.7;
+}
+p {
+    color: red;
+}

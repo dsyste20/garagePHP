@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    max-width: 70%;
+    background-image: url("images/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Algerian;
+}
+form {
+    position: absolute;
+    margin: 20px;
+    width: 400px;
+    padding: 16px;
+    background-color: white;
+}
+input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+}
+a {
+    color: white;
+    text-align: left;
+}
+.button {
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}

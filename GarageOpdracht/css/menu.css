@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    max-width: 70%;
+    background-image: url("images/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Algerian;
+}
+.button {
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}
+sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+}
+h2 {
+    font-family: Algerian;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+ul {
+    font-family: Calibri;
+    font-size: large;
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+    color: gray;
+}
